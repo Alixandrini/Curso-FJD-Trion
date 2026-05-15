@@ -1,0 +1,167 @@
+[
+  {
+    "objectID": "Referencias.html",
+    "href": "Referencias.html",
+    "title": "Referências do Guia",
+    "section": "",
+    "text": "Manual do usuário do FJD Trion P1: https://www.fjdynamics.com/pt/products/fjd-trion-p1\nManual do usuário do FJD Trion Model: https://www.fjdynamics.com/pt/products/fjd-trion-model\nFJD Trion Model Quick Start Guide PC 2510-0001-EN\nGuide to Handheld LiDAR Scanning Principles and Best Practices: https://www.online-pdh.com/pluginfile.php/80740/mod_resource/content/1/Guide%20to%20Handheld%20LiDAR%20Scanning%20Principles%20.pdf\nLivox_Mid-360_User_Manual_EN.pdf: https://www.livoxtech.com/download/Livox_Mid-360_User_Manual_EN.pdf\nUsing Handheld Lidar to Map Difficult Environments: https://www.faro.com/pt-BR/Resource-Library/Article/3D-laser-scanning-to-map-environments",
+    "crumbs": [
+      "Referências",
+      "Referências do Guia"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Guia para escaneamento com LiDAR de mão",
+    "section": "",
+    "text": "Bem vindos!\nEste é um guia para o uso de scanners LiDAR de mão FJD Trion P1. Ele é destinado a pesquisadores, estudantes e profissionais que desejam aprender a usar essa tecnologia para capturar dados tridimensionais de alta precisão. O guia cobre desde a configuração do equipamento até a captura e processamento dos dados, fornecendo dicas e melhores práticas para obter os melhores resultados. Esperamos que este guia seja útil para aqueles que estão começando a explorar o mundo do escaneamento 3D com LiDAR de mão e que ajude a promover o uso dessa tecnologia em diversas áreas, como arqueologia, arquitetura, engenharia e ciências ambientais.\n\n\nO Lidar SLAM Trion P1\nO FJD Trion P1 é um scanner LiDAR de mão desenvolvido pela empresa FJ Dynamics. Ele é projetado para ser leve, portátil e fácil de usar, permitindo que os usuários capturem dados tridimensionais de alta precisão em uma variedade de ambientes. O FJD Trion P1 utiliza tecnologia de varredura a laser SLAM para medir distâncias e criar modelos 3D detalhados de objetos e ambientes. Ele é ideal para aplicações em arqueologia, arquitetura, engenharia, ciências ambientais e outras áreas que requerem captura de dados tridimensionais precisos.\nAo contrário dos métodos tradicionais de levantamento, o P1 permite a criação de mapas e a captura de nuvens de pontos em tempo real enquanto o operador se desloca pelo ambiente. Sua grande vantagem reside na operação em locais onde o sinal GNSS é inexistente, como túneis, minas e interiores de edifícios.\n\n\n\nFJD Trion P1\n\n\n\n\nO que é SLAM?\nSLAM (Simultaneous Localization and Mapping) é uma técnica utilizada em robótica e sistemas de navegação para construir um mapa de um ambiente desconhecido enquanto simultaneamente rastreia a localização do dispositivo dentro desse ambiente. No contexto do escaneamento com LiDAR de mão, o SLAM permite que o scanner crie um mapa 3D do ambiente enquanto o usuário se move, garantindo que os dados capturados sejam precisos e consistentes. O FJD Trion P1 utiliza tecnologia SLAM para garantir que os dados capturados sejam de alta qualidade, mesmo em ambientes complexos ou desafiadores.\n\n\nCaracterísticas do FJD Trion P1\n\nAlcance de até 70 metros: O FJD Trion P1 é capaz de capturar dados a uma distância de até 70 metros, permitindo que os usuários escaneiem grandes áreas com facilidade.\nPrecisão de até 2 cm: O scanner oferece uma precisão de até 2 cm, garantindo que os dados capturados sejam de alta qualidade e adequados para uma variedade de aplicações.\nPortabilidade: O FJD Trion P1 é leve e fácil de transportar, tornando-o ideal para uso em campo e em ambientes onde o acesso é limitado.\nField of View (FOV) de 360x59 graus: O scanner possui um campo de visão de 360x59 graus, permitindo que os usuários capturem dados de todos os ângulos sem a necessidade de reposicionar o equipamento.\n\n\n\n\nFJD Trion P1 FOV\n\n\nPara mais informações sobreo o FJD Trion P1, visite o site do fabricante https://www.fjdynamics.com/pt.",
+    "crumbs": [
+      "Introdução",
+      "Guia para escaneamento com LiDAR de mão"
+    ]
+  },
+  {
+    "objectID": "Captura.html",
+    "href": "Captura.html",
+    "title": "Escaneamento com o FJD Trion P1",
+    "section": "",
+    "text": "O levantamento de campo com o FJD Trion P1 é um processo que envolve a captura de dados tridimensionais de um ambiente usando o scanner LiDAR de mão. Para realizar um levantamento de campo com o FJD Trion P1, siga as etapas abaixo: 1. Preparação do equipamento: Certifique-se de que o FJD Trion P1 esteja completamente carregado e que o módulo da câmera esteja corretamente acoplado ao corpo do scanner. Verifique se o app de controle FJD Trion Scan está instalado em um dispositivo móvel compatível e que a conexão Wi-Fi entre o scanner e o dispositivo esteja configurada corretamente.\n\nConfiguração do ambiente: Antes de iniciar o levantamento de campo, é importante avaliar o ambiente e identificar quaisquer obstáculos ou áreas de interesse que possam afetar a captura de dados. Certifique-se de que o ambiente esteja seguro para a operação do scanner e que haja espaço suficiente para se mover livremente durante o processo de escaneamento.\nInício do levantamento: Abra o aplicativo FJD Trion Scan no seu dispositivo móvel e siga as instruções para iniciar uma nova sessão de escaneamento. Ligue o equipamento. Inicie o escaneamento no aplicativo FJD Trion Scan. Aguarde a inicialização completa do scanner com o equipamento parado. Comece a se mover lentamente pelo ambiente, mantendo o scanner em uma posição de 60 graus da vertical, estável e evitando movimentos bruscos para garantir a qualidade dos dados capturados. O equipamento depende da identificação de elementos estáticos para conectar as nuvens de frames sequenciais como mostrado na figura @frames.\n\n\n\n\nInicialização\n\n\n\nCaptura de dados: À medida que você se move pelo ambiente, o FJD Trion P1 irá capturar dados LiDAR e imagens com a câmera integrada. Certifique-se de cobrir todas as áreas de interesse e de manter uma distância adequada do scanner em relação aos objetos para garantir a precisão dos dados. Evite obstruções e mantena o scanner em uma posição estável para minimizar a distorção dos dados capturados.\nFinalização do levantamento: Após concluir o levantamento de campo, finalize a sessão de escaneamento no aplicativo FJD Trion Scan e salve os dados capturados. Certifique-se de que os dados estejam corretamente armazenados e organizados para facilitar o processamento e a análise posterior.\nDesligamento do equipamento: Após finalizar o levantamento de campo, desligue o FJD Trion P1 seguindo as instruções fornecidas pelo fabricante para garantir a segurança do equipamento e a preservação dos dados capturados. Armazene o scanner em um local seguro e protegido de poeira, umidade e impactos para garantir a longevidade do equipamento e a qualidade dos dados capturados em futuras sessões de escaneamento.",
+    "crumbs": [
+      "Operação",
+      "Levantamento de Campo"
+    ]
+  },
+  {
+    "objectID": "Captura.html#fechamento-do-circuito-nas-posições-inicial-e-final-feche-o-circuito-sempre-que-possível-para-minimizar-o-erro-cumulativo.-consiste-em-fechar-o-circuito-refazendo-o-levantamento-de-uma-posição-conhecida-e-o-caminho-sobreposto-deve-ter-pelo-menos-5-m.",
+    "href": "Captura.html#fechamento-do-circuito-nas-posições-inicial-e-final-feche-o-circuito-sempre-que-possível-para-minimizar-o-erro-cumulativo.-consiste-em-fechar-o-circuito-refazendo-o-levantamento-de-uma-posição-conhecida-e-o-caminho-sobreposto-deve-ter-pelo-menos-5-m.",
+    "title": "Escaneamento com o FJD Trion P1",
+    "section": "1. Fechamento do circuito nas posições inicial e final Feche o circuito sempre que possível para minimizar o erro cumulativo. Consiste em “fechar o circuito” refazendo o levantamento de uma posição conhecida, e o caminho sobreposto deve ter pelo menos 5 m.",
+    "text": "1. Fechamento do circuito nas posições inicial e final Feche o circuito sempre que possível para minimizar o erro cumulativo. Consiste em “fechar o circuito” refazendo o levantamento de uma posição conhecida, e o caminho sobreposto deve ter pelo menos 5 m.\nRecomenda-se que a varredura seja feita com base nos caminhos verdes abaixo. \n\n\n\n\n\n\nDicaMelhor Prática: Fechamento de Loop\n\n\n\nSempre feche o circuito refazendo o levantamento de uma posição conhecida por pelo menos 5 metros para minimizar erros cumulativos.",
+    "crumbs": [
+      "Operação",
+      "Levantamento de Campo"
+    ]
+  },
+  {
+    "objectID": "Captura.html#fechamento-de-loop-durante-a-digitalização",
+    "href": "Captura.html#fechamento-de-loop-durante-a-digitalização",
+    "title": "Escaneamento com o FJD Trion P1",
+    "section": "2. Fechamento de loop durante a digitalização",
+    "text": "2. Fechamento de loop durante a digitalização\nOs erros nos dados da nuvem de pontos se acumulam à medida que você caminha. Os erros diminuem com o aumento do fechamento de loop circular. Portanto, recomenda-se fechar o loop o máximo possível para minimizar os erros.\nAmbientes comuns (cerca de 2.000 m²): Digitalize de acordo com o ambiente. \nAmbientes amplos (about 10,000 m²): Feche o maior número de percursos quanto for possível.",
+    "crumbs": [
+      "Operação",
+      "Levantamento de Campo"
+    ]
+  },
+  {
+    "objectID": "Captura.html#não-esqueça",
+    "href": "Captura.html#não-esqueça",
+    "title": "Escaneamento com o FJD Trion P1",
+    "section": "3. Não Esqueça !",
+    "text": "3. Não Esqueça !\n\nIdentificação de pontos de controle: Durante o levantamento de campo, identifique pontos de controle que possam ser usados para comparar os dados capturados em diferentes áreas do ambiente. Esses pontos de controle podem ser marcadores físicos, como alvos ou balizas, ou podem ser características distintas do ambiente, como cantos de edifícios ou árvores.\nComparação dos dados: Após concluir o levantamento de campo, compare os dados capturados em diferentes pontos do ambiente usando os pontos de controle identificados. Use software de processamento de dados LiDAR para analisar os dados e identificar quaisquer discrepâncias ou erros que possam ter ocorrido durante o processo de escaneamento.\nCorreção dos dados: Se forem identificadas discrepâncias ou erros durante a comparação dos dados, use as ferramentas de correção disponíveis no software de processamento de dados LiDAR para ajustar os dados e garantir que eles sejam precisos e consistentes. Isso pode envolver a realinhamento dos dados, a remoção de pontos de ruído ou a aplicação de filtros para melhorar a qualidade dos dados capturados.\nValidação dos dados: Após realizar as correções necessárias, valide os dados corrigidos para garantir que eles sejam precisos e adequados para as análises e aplicações pretendidas. Use os pontos de controle para verificar a precisão dos dados corrigidos e certifique-se de que eles estejam prontos para serem usados em projetos ou pesquisas futuras.",
+    "crumbs": [
+      "Operação",
+      "Levantamento de Campo"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre este guia",
+    "section": "",
+    "text": "Autor: Prof. Mauro José Alixandrini Jr. \ndata: 24 de abril de 2024\nUnivsersidade Federal da Bahia - UFBA\nE-mail: mauro.alixandrini@ufba.br instagram: @gpgeo_ufba",
+    "crumbs": [
+      "Referências",
+      "Sobre este guia"
+    ]
+  },
+  {
+    "objectID": "Descricao.html",
+    "href": "Descricao.html",
+    "title": "Antes de começar",
+    "section": "",
+    "text": "Instruções de segurança\nPara evitar danos causados por um uso inadequado do equipamento, é importante seguir as seguintes instruções de segurança:\n\n\n\n\n\n\n\nAvisoEvite olhar diretamente para o feixe de laser:\n\n\n\nO FJD Trion P1 emite um feixe de laser que pode ser prejudicial para os olhos. Nunca olhe diretamente para o feixe e evite apontar o scanner para os olhos de outras pessoas.\n\n\n\n\n\n\n\n\nAvisoMantenha o equipamento longe de crianças:\n\n\n\nO FJD Trion P1 é um equipamento sensível e deve ser mantido fora do alcance de crianças para evitar danos acidentais.\n\n\n\n\n\n\n\n\nAvisoUse o equipamento em ambientes seguros:\n\n\n\nEvite usar o FJD Trion P1 em ambientes perigosos, como áreas com risco de explosão, locais com alta tensão elétrica ou em condições climáticas adversas, como chuva intensa ou ventos fortes.\n\n\n\n\n\n\n\n\nAvisoSiga as instruções do fabricante:\n\n\n\nSempre leia e siga as instruções fornecidas pelo fabricante para garantir o uso seguro e adequado do equipamento. Isso inclui informações sobre a configuração, operação e manutenção do FJD Trion P1.\n\n\n\n\n\n\n\n\nAvisoUse equipamentos de proteção individual (EPI):\n\n\n\nDependendo do ambiente em que o FJD Trion P1 está sendo usado, pode ser necessário usar equipamentos de proteção individual, como óculos de segurança, luvas ou capacetes, para garantir a segurança do operador e de outras pessoas nas proximidades.\n\n\n\n\n\n\n\n\nAvisoDesligue o equipamento quando não estiver em uso:\n\n\n\nPara evitar acidentes e prolongar a vida útil do FJD Trion P1, desligue o equipamento quando não estiver em uso e armazene-o em um local seguro e protegido de poeira, umidade e impactos.\n\n\n\n\n\n\n\n\nAvisoNão aponte câmeras para gravação ou fotografia durante o uso do equipamento:\n\n\n\nO FJD Trion P1 pode interferir com câmeras de gravação ou fotografia, causando distorções ou danos aos equipamentos. Evite apontar câmeras para o scanner durante a operação para garantir a segurança dos equipamentos e a qualidade das imagens capturadas.\n\n\n\n\nOverview\n\n\n\nFJD Trion P1\n\n\n\n\n\nFJD Trion P1\n\n\n\n\n\nItem\nDescrição\n\n\n\n\n1\nSensor LiDAR\n\n\n2\nBotão de acionamento e LED de status\n\n\n3\nBotão de liberação do corpo do scanner\n\n\n4\nPrato base\n\n\n5\nMódulo da câmera\n\n\n6\nBotão de liberação do módulo da câmera\n\n\n7\nPorta USB-3.0\n\n\n8\nPorta USB-C\n\n\n9\nBateria\n\n\n\n\n\nEspecificações técnicas\n\n\n\nEspecificação\nDetalhes\n\n\n\n\nAlcance\n40 m (10% refletividade) até 70 m (80% refletividade)\n\n\nPrecisão\n0,8 cm até 2 cm\n\n\nPeso\n1,2 kg\n\n\nField of View (FOV)\n360° x 59°\n\n\nClasse do Laser\nClasse 1 (seguro para os olhos)\n\n\nTemperatura de operação\n-10°C a 40°C\n\n\nComprimento de onda\n905 nm\n\n\nTaxa de aquisição\nAté 240.000 pontos por segundo\n\n\nResolução da câmera\n12 megapixels\n\n\n\n\n\nMontagem e conexão do equipamento\nAntes de começar a usar o FJD Trion P1, é importante garantir que o equipamento esteja corretamente montado e conectado. Siga as instruções abaixo para montar e conectar o FJD Trion P1:\n\nMontagem do scanner: Certifique-se de que o corpo do scanner esteja firmemente conectado ao prato base e que o módulo da câmera esteja corretamente acoplado ao corpo do scanner. Use os botões de liberação para garantir que todas as partes estejam seguras.\n\n\n\n\nMontagem\n\n\n\nConexão da bateria: Verifique se a bateria está corretamente instalada no compartimento de bateria do FJD Trion P1. Certifique-se de que a bateria esteja totalmente carregada antes de usar o equipamento.\nConexão da câmera: Certifique-se de que o módulo da câmera esteja corretamente conectado ao corpo do scanner e que os cabos estejam firmemente conectados às portas USB-C, conforme necessário.\n\n\n\n\n\n\n\nAviso\n\n\n\nAntes de ligar o equipamento é necessário baixar o app de controle FJD Trion Scan em um dispositivo móvel compatível (Android ou iOS) e conectar o scanner ao dispositivo via Wi-Fi. O app esta disponível para download na loja de aplicativos do seu dispositivo e é gratuito. Siga as instruções fornecidas pelo fabricante para configurar a conexão Wi-Fi e garantir que o scanner esteja pronto para uso.\n\n\n\n\nLigando o equipamento\nPara ligar o FJD Trion P1, siga as instruções abaixo:\n\nPressione e segure o botão de acionamento localizado na parte superior do scanner por cerca de 3 segundos até que o LED de status comece a piscar, indicando que o equipamento está ligando.\nAguarde até que o LED de status fique verde, indicando que o FJD Trion P1 está pronto para uso. O processo de inicialização pode levar alguns segundos, durante os quais o scanner realizará uma série de auto-testes para garantir que todos os sistemas estejam funcionando corretamente.\nUma vez que o LED de status esteja verde, o FJD Trion P1 estará pronto para ser usado para capturar dados LiDAR e imagens com a câmera integrada.\nPara auternar do modo Bluetooth para o modo Wi-Fi, pressione o botão de acionamento por cerca de 5 segundos até que o LED de status comece a piscar em azul, indicando que o scanner está no modo Wi-Fi e pronto para se conectar ao aplicativo FJD Trion Scan em um dispositivo móvel compatível.\nConecte o seu dispositivo móvel ao scanner via Wi-Fi seguindo as instruções fornecidas pelo fabricante para garantir uma conexão estável e segura entre o FJD Trion P1 e o aplicativo de controle.\nAbra o FJD Trion Scan no seu dispositivo móvel e siga as instruções para iniciar uma nova sessão de escaneamento, configurar as opções de captura e começar a coletar dados LiDAR e imagens com o FJD Trion P1.\nPara desligar o FJD Trion P1, pressione e segure o botão de acionamento por cerca de 3 segundos até que o LED de status comece a piscar, indicando que o equipamento está desligando. Aguarde até que o LED de status fique apagado, indicando que o FJD Trion P1 está completamente desligado e seguro para armazenamento ou transporte.",
+    "crumbs": [
+      "Equipamento",
+      "Instruções de Segurança"
+    ]
+  },
+  {
+    "objectID": "Processamento.html",
+    "href": "Processamento.html",
+    "title": "Processamento de Dados",
+    "section": "",
+    "text": "Após a coleta em campo com o FJD Trion P1, o processamento dos dados brutos é realizado no software FJD Trion Model. Abaixo, detalhamos as principais etapas para transformar os dados brutos em produtos finais de alta precisão.\n\n\nA primeira etapa consiste em importar a pasta do projeto capturada pelo P1. O software utiliza o algoritmo SLAM para calcular a trajetória e gerar a nuvem de pontos inicial.\n\nImportação: Vá em File &gt; Open e selecione a pasta do projeto (contendo arquivos .fjd e .bin).\nCálculo: Clique em Slam Process. Aqui é possível configurar o método de otimização de loop closure para reduzir erros de deriva (drift).\n\n\n\n\nSe as imagens foram capturadas simultaneamente com o LiDAR, você pode projetar as cores das fotos nos pontos.\n\nProcedimento: Selecione a tarefa processada e utilize a ferramenta Colorize.\nRequisito: É fundamental que a calibração entre a câmera e o laser tenha sido mantida durante o levantamento para evitar sombras ou deslocamentos de cor.\n\n\n\n\nMuitas vezes, a nuvem de pontos contém dados excedentes (ruído externo ou áreas fora do interesse).\n\nFerramentas de Seleção: Utilize as ferramentas de laço (Lasso) ou retângulo para selecionar áreas.\nRecorte: Use a função Clip para remover pontos indesejados ou isolar apenas a área de estudo. Isso otimiza o desempenho do computador para as próximas etapas.\n\n\n\n\nPara remover “fantasmas” (objetos em movimento como carros ou pedestres) e ruídos eletrônicos:\n\nDenoise: Aplica filtros estatísticos para remover pontos isolados que não pertencem a superfícies sólidas.\nVoxel Filter: Reduz a densidade da nuvem, mantendo a geometria, o que facilita o manuseio de arquivos muito grandes.\n\n\n\n\nEssencial para a criação de Modelos Digitais de Terreno (MDT).\n\nClassificação de Solo: O software identifica automaticamente os pontos que pertencem ao terreno.\nClasses: É possível separar os pontos em camadas como Ground, Vegetation, e Buildings seguindo o padrão ASPRS.\n\n\n\n\nCom a nuvem limpa e classificada, você pode realizar medições diretas:\n\nDistância: Medição ponto a ponto ou vertical.\nÁrea e Volume: Selecione uma região para calcular volumes de pilhas de estoque ou depressões no terreno.\nCoordenadas: Extração de coordenadas precisas de alvos ou pontos de controle (GCPs).\n\n\n\n\n\n\n\n\nNotaDica de Engenheiro\n\n\n\nPara projetos que exigem alta precisão geodésica, lembre-se de importar seus pontos de controle (GCPs) antes da otimização final do SLAM para ajustar a nuvem ao sistema de coordenadas local (ex: SIRGAS 2000).",
+    "crumbs": [
+      "Processamento",
+      "Fluxo no Trion Model"
+    ]
+  },
+  {
+    "objectID": "Processamento.html#Slam",
+    "href": "Processamento.html#Slam",
+    "title": "Processamento de Dados",
+    "section": "",
+    "text": "A primeira etapa consiste em importar a pasta do projeto capturada pelo P1. O software utiliza o algoritmo SLAM para calcular a trajetória e gerar a nuvem de pontos inicial.\n\nImportação: Vá em File &gt; Open e selecione a pasta do projeto (contendo arquivos .fjd e .bin).\nCálculo: Clique em Slam Process. Aqui é possível configurar o método de otimização de loop closure para reduzir erros de deriva (drift).",
+    "crumbs": [
+      "Processamento",
+      "Fluxo no Trion Model"
+    ]
+  },
+  {
+    "objectID": "Processamento.html#Colorizacao",
+    "href": "Processamento.html#Colorizacao",
+    "title": "Processamento de Dados",
+    "section": "",
+    "text": "Se as imagens foram capturadas simultaneamente com o LiDAR, você pode projetar as cores das fotos nos pontos.\n\nProcedimento: Selecione a tarefa processada e utilize a ferramenta Colorize.\nRequisito: É fundamental que a calibração entre a câmera e o laser tenha sido mantida durante o levantamento para evitar sombras ou deslocamentos de cor.",
+    "crumbs": [
+      "Processamento",
+      "Fluxo no Trion Model"
+    ]
+  },
+  {
+    "objectID": "Processamento.html#Recorte",
+    "href": "Processamento.html#Recorte",
+    "title": "Processamento de Dados",
+    "section": "",
+    "text": "Muitas vezes, a nuvem de pontos contém dados excedentes (ruído externo ou áreas fora do interesse).\n\nFerramentas de Seleção: Utilize as ferramentas de laço (Lasso) ou retângulo para selecionar áreas.\nRecorte: Use a função Clip para remover pontos indesejados ou isolar apenas a área de estudo. Isso otimiza o desempenho do computador para as próximas etapas.",
+    "crumbs": [
+      "Processamento",
+      "Fluxo no Trion Model"
+    ]
+  },
+  {
+    "objectID": "Processamento.html#Filtragem",
+    "href": "Processamento.html#Filtragem",
+    "title": "Processamento de Dados",
+    "section": "",
+    "text": "Para remover “fantasmas” (objetos em movimento como carros ou pedestres) e ruídos eletrônicos:\n\nDenoise: Aplica filtros estatísticos para remover pontos isolados que não pertencem a superfícies sólidas.\nVoxel Filter: Reduz a densidade da nuvem, mantendo a geometria, o que facilita o manuseio de arquivos muito grandes.",
+    "crumbs": [
+      "Processamento",
+      "Fluxo no Trion Model"
+    ]
+  },
+  {
+    "objectID": "Processamento.html#Classificacao",
+    "href": "Processamento.html#Classificacao",
+    "title": "Processamento de Dados",
+    "section": "",
+    "text": "Essencial para a criação de Modelos Digitais de Terreno (MDT).\n\nClassificação de Solo: O software identifica automaticamente os pontos que pertencem ao terreno.\nClasses: É possível separar os pontos em camadas como Ground, Vegetation, e Buildings seguindo o padrão ASPRS.",
+    "crumbs": [
+      "Processamento",
+      "Fluxo no Trion Model"
+    ]
+  },
+  {
+    "objectID": "Processamento.html#medição-e-análise",
+    "href": "Processamento.html#medição-e-análise",
+    "title": "Processamento de Dados",
+    "section": "",
+    "text": "Com a nuvem limpa e classificada, você pode realizar medições diretas:\n\nDistância: Medição ponto a ponto ou vertical.\nÁrea e Volume: Selecione uma região para calcular volumes de pilhas de estoque ou depressões no terreno.\nCoordenadas: Extração de coordenadas precisas de alvos ou pontos de controle (GCPs).\n\n\n\n\n\n\n\n\nNotaDica de Engenheiro\n\n\n\nPara projetos que exigem alta precisão geodésica, lembre-se de importar seus pontos de controle (GCPs) antes da otimização final do SLAM para ajustar a nuvem ao sistema de coordenadas local (ex: SIRGAS 2000).",
+    "crumbs": [
+      "Processamento",
+      "Fluxo no Trion Model"
+    ]
+  }
+]

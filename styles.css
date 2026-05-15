@@ -1,0 +1,13 @@
+/* css styles */
+/*-- scss:defaults --*/
+$navbar-bg: #003366; // Um azul mais escuro, por exemplo
+$navbar-fg: #ffffff;
+$link-color: #0056b3;
+
+/* Aumentar o tamanho do logo na navbar */
+.navbar-brand-logo {
+  max-height: 120px !important; 
+  height: 150px;
+  width: auto;
+}
+/*-- scss:rules --*/
